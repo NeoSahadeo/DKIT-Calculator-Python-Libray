@@ -17,3 +17,9 @@ def multiply(x, y):
     Multiplies x by y
     """
     return x * y
+
+
+def division(x, y):
+    if y == 0:
+        return -1
+    return round(x / y, 2)
